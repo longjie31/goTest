@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"reflect"
 )
+
 type pojun int32
 
 func main() {
@@ -19,11 +20,10 @@ func main() {
 	fmt.Print("\n")
 	fmt.Print(d)
 	fmt.Print("\n")
-	 var c pojun
+	var c pojun
 	var a int32
 	fmt.Print(c)
 	fmt.Print(a)
 	fmt.Print("\n")
 	fmt.Print(reflect.TypeOf(c))
-	
 }

@@ -25,4 +25,5 @@ func main() {
 	console.Print('\n')
 	var r rune = 3
 	console.Print(r)
+	console.Println("hello world")
 }
