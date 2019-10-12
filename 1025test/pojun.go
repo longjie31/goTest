@@ -29,4 +29,9 @@ func main() {
 	k := int32(j)
 	fmt.Print(k)
 	fmt.Print(reflect.TypeOf(k))
+	var a1, b1, c1 = true, false, "分别赋值"
+	fmt.Println(a1, b1, c1)
+	for i := 0; i < 4; i++ {
+		fmt.Println("for循环", i)
+	}
 }
